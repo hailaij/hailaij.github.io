@@ -41,13 +41,29 @@
     <content><![CDATA[<h2 id="啊啊啊"><a href="#啊啊啊" class="headerlink" title="啊啊啊"></a>啊啊啊</h2><p>吴坤</p>
 ]]></content>
       <tags>
-        <tag>-测试</tag>
+        <tag>测试</tag>
       </tags>
   </entry>
   <entry>
     <title>测试</title>
     <url>/2023/09/23/%E6%B5%8B%E8%AF%95/</url>
     <content><![CDATA[<h1 id="测试文章"><a href="#测试文章" class="headerlink" title="测试文章"></a>测试文章</h1>]]></content>
+  </entry>
+  <entry>
+    <title>2023</title>
+    <url>/2023/09/23/%E6%B5%8B%E8%AF%952/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="不好意思，密码没对哦，在检查检查呢！" data-whm="不好意思，信息无法验证！">
+  <script id="hbeData" type="hbeData" data-hmacdigest="bd9ba54d6d17c637a809851fba76462654cccf4fe004f4aab015f044358279a1">4630436162ade97ba2718b7d0c4b3b63cb3a3f659c5ca08b4bca0f58459281867f0716ee514ef32230a97e197e95d7b49f04d979ed4b38fd2df1d745798ac63b56eb5c66054753010835a2f52146041592ae223727619ef4a9134dfce4ed45f95c2a4fd35dea86cdbf1eb2998bac42cedd920c46efa7ba0bc190afcaca544a09</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">嗨，请准确无误地输入密码查看哟！</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>第一篇文章</title>

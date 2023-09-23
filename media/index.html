@@ -12,7 +12,7 @@
     
     
     
-    <title>hi | 一望无际</title>
+    <title>一望无际</title>
     <link href="http://example.com" rel="prefetch" />
 
     
@@ -203,27 +203,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 gal-right" id="mainstay">
-                    
+                    <!-- 搜索页面(尽可能接近ZanBlog搜索功能) -->
+
+
 <article class="article well article-body" id="article">
-    <div class="breadcrumb">
-        <i class="fa fa-home"></i>
-        <a href="http://example.com">一望无际</a>
-        >
-        <span>hi</span>
-    </div>
     <!-- 大型设备详细文章 -->
     <div class="hidden-xs">
         <div class="title-article">
             <h1>
-                <a href="/2023/08/12/hi/">hi</a>
+                <a href="/media/index.html"></a>
             </h1>
         </div>
         <div class="tag-article">
-            
             <span class="label label-gal">
-                <i class="fa fa-calendar"></i> 2023-08-12
+                <i class="fa fa-calendar"></i> 2019-07-30
             </span>
-            
         </div>
     </div>
     <!-- 小型设备详细文章 -->
@@ -231,20 +225,53 @@
         <center>
             <div class="title-article">
                 <h4>
-                    <a href="/2023/08/12/hi/">hi</a>
+                    <a href="/media/index.html"></a>
                 </h4>
             </div>
             <p>
-                <i class="fa fa-calendar"></i> 2023-08-12
-            </p>
-            <p>
-                
-                
+                <i class="fa fa-calendar"></i> 2019-07-30
             </p>
         </center>
     </div>
     <div class="content-article">
-        
+        <div class="music-container">
+    <div class="music-player">
+        <div class="d-title">
+                <i class="fa fa-music"></i>&nbsp;&nbsp;听听音乐
+        </div>
+        <br/>
+    </div>
+    <div id="musicarea">
+        <div class="music"></div>
+        <p id="p_message"><span id="music_story_message" class="span_animation"></span></p>
+        <br/>
+        <ul id="musiclist"></ul>
+        <br/>
+        <div id="desc"></div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="/css/meplayer.min.css"/>
+<script type="text/javascript" defer src="/js/meplayer.js"></script>
+<script type="text/javascript" defer src="/js/music.js"></script>
+
+<br/>
+<p style = "text-align:center"><span style="font-size:13px;">音乐播放器由<a href="https://github.com/newraina/mePlayer" target="_blank" rel="noopener">mePlayer</a>提供，布局参照<a href="https://dp2px.com/music/" target="_blank" rel="noopener">网友博客</a>所作，感谢作者的辛勤付出。更多音乐分享请查看<a target="_blank" rel="noopener" href="https://removeif.github.io/music/">歌单</a>。</span></p>
+<link rel="stylesheet" href="/css/DPlayer.min.css"/>
+<br/>
+<br/>
+<div class="video-player">
+    <div class="d-title">
+            <i class="fa fa-video-camera"></i>&nbsp;&nbsp;看看视频
+    </div>
+    <br/>
+    <p class="hits">->点击以下条目开始播放视频,向下滑动查看更多<-</p>
+    <div id="video-list"></div>
+    <br/>
+    <div id="dplayer"><br/></div>
+</div>
+<script src="/js/DPlayer.min.js"></script>
+
     </div>
 </article>
 
@@ -254,9 +281,10 @@
 <script>
 	if(!window.commentConfig) {
       window.commentConfig = {}
-      window.commentConfig.title = 'hi'
+      window.commentConfig.title = ''
     }
 </script>
+
 
                 </div>
                 <aside class="col-md-4 gal-left" id="sidebar">
@@ -436,13 +464,13 @@
 
                 
                 <li>
-                    <a href="/2023/08/12/hi/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
+                    <a href="/media/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
                 </li>
                 
                 
                 
                 <li>
-                    <a href="/2023/08/12/hi/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
+                    <a href="/media/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
                 </li>
                 
             </ul>
@@ -450,9 +478,9 @@
                 
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
     
-    <a href="/tags/%E6%97%A0/" style="font-size: 11.339326442418741px;" class="tag-cloud-link">无</a>
+    <a href="/tags/%E6%97%A0/" style="font-size: 13.961374456482393px;" class="tag-cloud-link">无</a>
     
-    <a href="/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 13.16034575602748px;" class="tag-cloud-link">测试</a>
+    <a href="/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 16.773578226884503px;" class="tag-cloud-link">测试</a>
     
 </div>
                 
@@ -556,7 +584,7 @@
 <script src="https://myau.moe/js/comment/gitment.browser.js"></script>
 <script>
     if(window.commentConfig) {
-      window.commentConfig.id = 'Sat Aug 12 2023 20:15:06 GMT+0800'
+      window.commentConfig.id = 'Tue Jul 30 2019 09:33:48 GMT+0800'
       window.commentConfig.owner = ''
       window.commentConfig.repo = ''
       window.commentConfig.client_id = ''
@@ -564,7 +592,7 @@
       window.commentConfig.redirect_uri = ''
     } else {
       window.commentConfig = {
-      	id: 'Sat Aug 12 2023 20:15:06 GMT+0800',
+      	id: 'Tue Jul 30 2019 09:33:48 GMT+0800',
         owner: '',
         repo: '',
         client_id: '',
