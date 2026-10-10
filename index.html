@@ -400,7 +400,10 @@ Run server1$ hexo ser
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.getRegistrations().then((registrations) => {
       for (let registration of registrations) {
-        registration.unregister();
+        const blogScope = new URL(REIMU_CONFIG.relative, location.origin).href;
+        if (registration.scope === blogScope) {
+          registration.unregister();
+        }
       }
     });
   }
